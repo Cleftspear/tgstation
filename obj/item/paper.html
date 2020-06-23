@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;obj&#x2F;item&#x2F;paper - &#x2F;tg&#x2F; Station 13</title>
+</head>
+<body>
+<header>
+    <a href="index.html">&#x2F;tg&#x2F; Station 13</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="obj/item/paper.html#var">Var Details</a> - <a href="obj/item/paper.html#proc">Proc Details</a></header>
+<main>
+<h1>paper <aside>/<a href="obj.html">obj</a>/<a href="obj/item.html">item</a>/<a href="obj/item/paper.html">paper</a></aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/paperwork/paper.dm#L58">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;paperwork&#x2F;paper.dm 58"/></a></h1>
+
+<p>Paper is now using markdown (like in github pull notes) for ALL rendering
+so we do loose a bit of functionality but we gain in easy of use of
+paper and getting rid of that crashing bug</p><table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="obj/item/paper.html#var/form_fields">form_fields</a></th><td>When the sheet can be &quot;filled out&quot;
+This is an associated list</td></tr>
+            <tr><th><a href="obj/item/paper.html#var/info">info</a></th><td>What's actually written on the paper.</td></tr>
+            <tr><th><a href="obj/item/paper.html#var/rigged">rigged</a></th><td>Overlay info
+This REALLY should be a componenet.  Basicly used during, april fools
+to honk at you</td></tr>
+            <tr><th><a href="obj/item/paper.html#var/stamped">stamped</a></th><td>Positioning for the stamp in tgui</td></tr>
+            <tr><th><a href="obj/item/paper.html#var/stamps">stamps</a></th><td>The (text for the) stamps on the paper.</td></tr><tr><td colspan="2"><h2>Procs</h2></td></tr>
+            <tr><th><a href="obj/item/paper.html#proc/copy">copy</a></th><td>This proc copies this sheet of paper to a new
+sheet,  Makes it nice and easy for carbon and
+the copyer machine</td></tr>
+            <tr><th><a href="obj/item/paper.html#proc/create_ui">create_ui</a></th><td>This creates the ui, since we are using a custom state but not much else
+just makes it easyer to make it.  Also we make a custom ui_key as I am
+not sure how tgui handles many producers?</td></tr>
+            <tr><th><a href="obj/item/paper.html#proc/fire_act">fire_act</a></th><td>Normaly you just stamp, you don't need to read the thing</td></tr>
+            <tr><th><a href="obj/item/paper.html#proc/rename">rename</a></th><td>This might change in a future PR</td></tr>
+            <tr><th><a href="obj/item/paper.html#proc/reset_spamflag">reset_spamflag</a></th><td>ONLY USED FOR APRIL FOOLS</td></tr>
+            <tr><th><a href="obj/item/paper.html#proc/setText">setText</a></th><td>This proc sets the text of the paper and updates the
+icons.  You can modify the pen_color after if need
+be.</td></tr>
+            <tr><th><a href="obj/item/paper.html#proc/ui_act">ui_act</a></th><td>TODO: show the sheet will bloodied or crinkling?</td></tr>
+            <tr><th><a href="obj/item/paper.html#proc/update_all_ui">update_all_ui</a></th><td>close the editing window and change the mode</td></tr></table>
+    <h2 id="var">Var Details</h2><h3 id="var/form_fields"><aside class="declaration">var </aside>form_fields
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/paperwork/paper.dm#L110">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;paperwork&#x2F;paper.dm 110"/></a></h3>
+        <p>When the sheet can be &quot;filled out&quot;
+This is an associated list</p><h3 id="var/info"><aside class="declaration">var </aside>info
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/paperwork/paper.dm#L79">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;paperwork&#x2F;paper.dm 79"/></a></h3>
+        <p>What's actually written on the paper.</p><h3 id="var/rigged"><aside class="declaration">var </aside>rigged
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/paperwork/paper.dm#L87">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;paperwork&#x2F;paper.dm 87"/></a></h3>
+        <p>Overlay info
+This REALLY should be a componenet.  Basicly used during, april fools
+to honk at you</p><h3 id="var/stamped"><aside class="declaration">var </aside>stamped
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/paperwork/paper.dm#L83">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;paperwork&#x2F;paper.dm 83"/></a></h3>
+        <p>Positioning for the stamp in tgui</p><h3 id="var/stamps"><aside class="declaration">var </aside>stamps
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/paperwork/paper.dm#L82">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;paperwork&#x2F;paper.dm 82"/></a></h3>
+        <p>The (text for the) stamps on the paper.</p><h2 id="proc">Proc Details</h2><h3 id="proc/copy"><aside class="declaration">proc </aside>copy<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/paperwork/paper.dm#L124">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;paperwork&#x2F;paper.dm 124"/></a></aside>
+        </h3>
+        <p>This proc copies this sheet of paper to a new
+sheet,  Makes it nice and easy for carbon and
+the copyer machine</p><h3 id="proc/create_ui"><aside class="declaration">proc </aside>create_ui<aside>(/<a href="mob.html">mob</a>/user, /<a href="datum.html">datum</a>/<a href="datum/ui_state.html">ui_state</a>/<a href="datum/ui_state/default/paper_state.html">default/paper_state</a>/state) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/paperwork/paper.dm#L241">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;paperwork&#x2F;paper.dm 241"/></a></aside>
+        </h3>
+        <p>This creates the ui, since we are using a custom state but not much else
+just makes it easyer to make it.  Also we make a custom ui_key as I am
+not sure how tgui handles many producers?</p><h3 id="proc/fire_act"><aside class="parent"><a title="/obj" href="obj.html#proc/fire_act">&uarr;</a></aside>fire_act<aside>(exposed_temperature, exposed_volume) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/paperwork/paper.dm#L302">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;paperwork&#x2F;paper.dm 302"/></a></aside>
+        </h3>
+        <p>Normaly you just stamp, you don't need to read the thing</p><h3 id="proc/rename"><aside class="declaration">verb </aside>rename<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/paperwork/paper.dm#L179">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;paperwork&#x2F;paper.dm 179"/></a></aside>
+        </h3>
+        <p>This might change in a future PR</p><h3 id="proc/reset_spamflag"><aside class="declaration">proc </aside>reset_spamflag<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/paperwork/paper.dm#L205">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;paperwork&#x2F;paper.dm 205"/></a></aside>
+        </h3>
+        <p>ONLY USED FOR APRIL FOOLS</p><h3 id="proc/setText"><aside class="declaration">proc </aside>setText<aside>(text) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/paperwork/paper.dm#L141">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;paperwork&#x2F;paper.dm 141"/></a></aside>
+        </h3>
+        <p>This proc sets the text of the paper and updates the
+icons.  You can modify the pen_color after if need
+be.</p><h3 id="proc/ui_act"><aside class="parent"><a title="/datum" href="datum.html#proc/ui_act">&uarr;</a></aside>ui_act<aside>(action, params, /<a href="datum.html">datum</a>/<a href="datum/tgui.html">tgui</a>/ui, /<a href="datum.html">datum</a>/<a href="datum/ui_state.html">ui_state</a>/<a href="datum/ui_state/default/paper_state.html">default/paper_state</a>/state) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/paperwork/paper.dm#L377">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;paperwork&#x2F;paper.dm 377"/></a></aside>
+        </h3>
+        <p>TODO: show the sheet will bloodied or crinkling?</p><h3 id="proc/update_all_ui"><aside class="declaration">proc </aside>update_all_ui<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/paperwork/paper.dm#L338">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;paperwork&#x2F;paper.dm 338"/></a></aside>
+        </h3>
+        <p>close the editing window and change the mode</p></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/tgstation/tgstation/tree/d8de83797c634f436097a86526d23a5359b5f485">d8de837</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.2.1</a></footer>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;human - &#x2F;tg&#x2F; Station 13</title>
+</head>
+<body>
+<header>
+    <a href="index.html">&#x2F;tg&#x2F; Station 13</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="mob/living/carbon/human.html#var">Var Details</a> - <a href="mob/living/carbon/human.html#proc">Proc Details</a></header>
+<main>
+<h1>Unknown <aside>/<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/<a href="mob/living/carbon.html">carbon</a>/<a href="mob/living/carbon/human.html">human</a></aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/mob/living/carbon/human/human_defines.dm#L1">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;human&#x2F;human_defines.dm 1"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#var/body_type">body_type</a></th><td>For agendered spessmen, which body type to use</td></tr><tr><td colspan="2"><h2>Procs</h2></td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#proc/apply_damage">apply_damage</a></th><td>depending on the species, it will run the corresponding apply_damage code there</td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#proc/canUseHUD">canUseHUD</a></th><td>HUDs</td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#proc/check_reflect">check_reflect</a></th><td>Reflection checks for anything in your l_hand, r_hand, or wear_suit based on the reflection chance of the object</td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#proc/clothingonpart">clothingonpart</a></th><td>Get all the clothing on a specific body part</td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#proc/electrocute_act">electrocute_act</a></th><td>Calculates the siemens coeff based on clothing and species, can also restart hearts.</td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#proc/fan_hud_set_fandom">fan_hud_set_fandom</a></th><td>FAN HUDs! For identifying other fans on-sight.</td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#proc/format_scars">format_scars</a></th><td>For use formatting all of the scars this human has for saving for persistent scarring</td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#proc/get_body_temp_normal">get_body_temp_normal</a></th><td>get_body_temperature Returns the body temperature with any modifications applied</td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#proc/handle_environment">handle_environment</a></th><td>Environment handlers for species</td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#proc/handle_fire">handle_fire</a></th><td>FIRE CODE</td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#proc/load_scar">load_scar</a></th><td>Takes a single scar from the persistent scar loader and recreates it from the saved data</td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#proc/sec_hud_set_ID">sec_hud_set_ID</a></th><td>Security HUDs! Basic mode shows only the job.</td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#proc/singularity_act">singularity_act</a></th><td>Overrides the point value that the mob is worth</td></tr>
+            <tr><th><a href="mob/living/carbon/human.html#proc/something_horrible">something_horrible</a></th><td>DNA HELPER-PROCS</td></tr></table>
+    <h2 id="var">Var Details</h2><h3 id="var/body_type"><aside class="declaration">var </aside>body_type
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/mob/living/carbon/human/human_defines.dm#L66">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;human&#x2F;human_defines.dm 66"/></a></h3>
+        <p>For agendered spessmen, which body type to use</p><h2 id="proc">Proc Details</h2><h3 id="proc/apply_damage"><aside class="parent"><a title="/mob/living" href="mob/living.html#proc/apply_damage">&uarr;</a></aside>apply_damage<aside>(damage, damagetype, def_zone, blocked, forced, spread_damage, wound_bonus, bare_wound_bonus, sharpness) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/mob/living/carbon/human/damage_procs.dm#L3">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;human&#x2F;damage_procs.dm 3"/></a></aside>
+        </h3>
+        <p>depending on the species, it will run the corresponding apply_damage code there</p><h3 id="proc/canUseHUD"><aside class="declaration">proc </aside>canUseHUD<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/mob/living/carbon/human/human.dm#L531">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;human&#x2F;human.dm 531"/></a></aside>
+        </h3>
+        <p>HUDs</p><h3 id="proc/check_reflect"><aside class="declaration">proc </aside>check_reflect<aside>(def_zone) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/mob/living/carbon/human/human_defense.dm#L103">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;human&#x2F;human_defense.dm 103"/></a></aside>
+        </h3>
+        <p>Reflection checks for anything in your l_hand, r_hand, or wear_suit based on the reflection chance of the object</p><h3 id="proc/clothingonpart"><aside class="declaration">proc </aside>clothingonpart<aside>(/<a href="obj.html">obj</a>/<a href="obj/item.html">item</a>/<a href="obj/item/bodypart.html">bodypart</a>/def_zone) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/mob/living/carbon/human/human_defense.dm#L39">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;human&#x2F;human_defense.dm 39"/></a></aside>
+        </h3>
+        <p>Get all the clothing on a specific body part</p><h3 id="proc/electrocute_act"><aside class="parent"><a title="/mob/living/carbon" href="mob/living/carbon.html#proc/electrocute_act">&uarr;</a></aside>electrocute_act<aside>(shock_damage, source, siemens_coeff, flags) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/mob/living/carbon/human/human_defense.dm#L473">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;human&#x2F;human_defense.dm 473"/></a></aside>
+        </h3>
+        <p>Calculates the siemens coeff based on clothing and species, can also restart hearts.</p><h3 id="proc/fan_hud_set_fandom"><aside class="declaration">proc </aside>fan_hud_set_fandom<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/game/data_huds.dm#L222">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;data_huds.dm 222"/></a></aside>
+        </h3>
+        <p>FAN HUDs! For identifying other fans on-sight.</p><h3 id="proc/format_scars"><aside class="declaration">proc </aside>format_scars<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/mob/living/carbon/human/human_helpers.dm#L180">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;human&#x2F;human_helpers.dm 180"/></a></aside>
+        </h3>
+        <p>For use formatting all of the scars this human has for saving for persistent scarring</p><h3 id="proc/get_body_temp_normal"><aside class="parent"><a title="/mob/living" href="mob/living.html#proc/get_body_temp_normal">&uarr;</a></aside>get_body_temp_normal<aside>(apply_change) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/mob/living/carbon/human/life.dm#L123">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;human&#x2F;life.dm 123"/></a></aside>
+        </h3>
+        <p>get_body_temperature Returns the body temperature with any modifications applied</p>
+<p>This applies the result from proc/get_body_temp_normal_change() against the bodytemp_normal
+for the species and returns the result</p>
+<p>arguments:</p>
+<ul>
+<li>apply_change (optional) Default True This applies the changes to body temperature normal</li>
+</ul><h3 id="proc/handle_environment"><aside class="parent"><a title="/mob/living/carbon" href="mob/living/carbon.html#proc/handle_environment">&uarr;</a></aside>handle_environment<aside>(/<a href="datum.html">datum</a>/<a href="datum/gas_mixture.html">gas_mixture</a>/environment) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/mob/living/carbon/human/life.dm#L105">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;human&#x2F;life.dm 105"/></a></aside>
+        </h3>
+        <p>Environment handlers for species</p><h3 id="proc/handle_fire">handle_fire<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/mob/living/carbon/human/life.dm#L129">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;human&#x2F;life.dm 129"/></a></aside>
+        </h3>
+        <p>FIRE CODE</p><h3 id="proc/load_scar"><aside class="declaration">proc </aside>load_scar<aside>(scar_line) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/mob/living/carbon/human/human_helpers.dm#L190">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;human&#x2F;human_helpers.dm 190"/></a></aside>
+        </h3>
+        <p>Takes a single scar from the persistent scar loader and recreates it from the saved data</p><h3 id="proc/sec_hud_set_ID"><aside class="declaration">proc </aside>sec_hud_set_ID<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/game/data_huds.dm#L240">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;data_huds.dm 240"/></a></aside>
+        </h3>
+        <p>Security HUDs! Basic mode shows only the job.</p><h3 id="proc/singularity_act"><aside class="parent"><a title="/mob/living" href="mob/living.html#proc/singularity_act">&uarr;</a></aside>singularity_act<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/mob/living/carbon/human/human_defense.dm#L662">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;human&#x2F;human_defense.dm 662"/></a></aside>
+        </h3>
+        <p>Overrides the point value that the mob is worth</p><h3 id="proc/something_horrible"><aside class="declaration">proc </aside>something_horrible<aside>(ignore_stability) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/datums/dna.dm#L584">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;dna.dm 584"/></a></aside>
+        </h3>
+        <p>DNA HELPER-PROCS</p></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/tgstation/tgstation/tree/d8de83797c634f436097a86526d23a5359b5f485">d8de837</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.2.1</a></footer>
+</body>
+</html>

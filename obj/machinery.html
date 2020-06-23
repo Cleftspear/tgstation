@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;obj&#x2F;machinery - &#x2F;tg&#x2F; Station 13</title>
+</head>
+<body>
+<header>
+    <a href="index.html">&#x2F;tg&#x2F; Station 13</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="obj/machinery.html#var">Var Details</a> - <a href="obj/machinery.html#proc">Proc Details</a></header>
+<main>
+<h1>machinery <aside>/<a href="obj.html">obj</a>/<a href="obj/machinery.html">machinery</a></aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/game/machinery/_machinery.dm#L86">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;machinery&#x2F;_machinery.dm 86"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="obj/machinery.html#var/processing_flags">processing_flags</a></th><td>Viable flags to go here are START_PROCESSING_ON_INIT, or START_PROCESSING_MANUALLY. See code__DEFINES\machines.dm for more information on these flags.</td></tr>
+            <tr><th><a href="obj/machinery.html#var/subsystem_type">subsystem_type</a></th><td>What subsystem this machine will use, which is generally SSmachines or SSfastprocess. By default all machinery use SSmachines. This fires a machine's process() roughly every 2 seconds.</td></tr><tr><td colspan="2"><h2>Procs</h2></td></tr>
+            <tr><th><a href="obj/machinery.html#proc/begin_processing">begin_processing</a></th><td>Helper proc for telling a machine to start processing with the subsystem type that is located in its <code>subsystem_type</code> var.</td></tr>
+            <tr><th><a href="obj/machinery.html#proc/end_processing">end_processing</a></th><td>Helper proc for telling a machine to stop processing with the subsystem type that is located in its <code>subsystem_type</code> var.</td></tr>
+            <tr><th><a href="obj/machinery.html#proc/power_change">power_change</a></th><td>Called whenever the power settings of the containing area change</td></tr></table>
+    <h2 id="var">Var Details</h2><h3 id="var/processing_flags"><aside class="declaration">var </aside>processing_flags
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/game/machinery/_machinery.dm#L119">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;machinery&#x2F;_machinery.dm 119"/></a></h3>
+        <p>Viable flags to go here are START_PROCESSING_ON_INIT, or START_PROCESSING_MANUALLY. See code__DEFINES\machines.dm for more information on these flags.</p><h3 id="var/subsystem_type"><aside class="declaration">var </aside>subsystem_type
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/game/machinery/_machinery.dm#L121">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;machinery&#x2F;_machinery.dm 121"/></a></h3>
+        <p>What subsystem this machine will use, which is generally SSmachines or SSfastprocess. By default all machinery use SSmachines. This fires a machine's process() roughly every 2 seconds.</p><h2 id="proc">Proc Details</h2><h3 id="proc/begin_processing"><aside class="declaration">proc </aside>begin_processing<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/game/machinery/_machinery.dm#L154">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;machinery&#x2F;_machinery.dm 154"/></a></aside>
+        </h3>
+        <p>Helper proc for telling a machine to start processing with the subsystem type that is located in its <code>subsystem_type</code> var.</p><h3 id="proc/end_processing"><aside class="declaration">proc </aside>end_processing<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/game/machinery/_machinery.dm#L159">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;machinery&#x2F;_machinery.dm 159"/></a></aside>
+        </h3>
+        <p>Helper proc for telling a machine to stop processing with the subsystem type that is located in its <code>subsystem_type</code> var.</p><h3 id="proc/power_change"><aside class="declaration">proc </aside>power_change<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d8de83797c634f436097a86526d23a5359b5f485/code/modules/power/power.dm#L120">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;power&#x2F;power.dm 120"/></a></aside>
+        </h3>
+        <p>Called whenever the power settings of the containing area change</p>
+<p>by default, check equipment channel &amp; set flag, can override if needed</p>
+<p>Returns TRUE if the NOPOWER flag was toggled</p></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/tgstation/tgstation/tree/d8de83797c634f436097a86526d23a5359b5f485">d8de837</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.2.1</a></footer>
+</body>
+</html>
