@@ -8,9 +8,6 @@ DAMAGE_MULTIPLIER 1
 ## whether pod plants work or not
 REVIVAL_POD_PLANTS
 
-## whether cloning tubes work or not
-REVIVAL_CLONING
-
 ## amount of time (in hundredths of seconds) for which a brain retains the "spark of life" after the person's death (set to -1 for infinite)
 REVIVAL_BRAIN_LIFE -1
 
@@ -578,6 +575,3 @@ RATCAP 64
 
 ## Maximum fine for a citation
 MAXFINE 2000
-
-## Enable the capitalist agenda on your server.
-ECONOMY
